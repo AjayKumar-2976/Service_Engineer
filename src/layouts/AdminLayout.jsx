@@ -92,7 +92,7 @@ const AdminLayout = () => {
               <Route path="/product" element={<Product />} />
               {/* <Route path="/product/addproduct" element={<AddProduct />} /> */}
               <Route
-                path="/product/product-details"
+                path="/product/product-details/:productId"
                 element={<ViewProduct />}
               />
 
